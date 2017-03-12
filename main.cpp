@@ -14,4 +14,5 @@ int main() {
 	else {
 		cout << "false" << endl;
 	}
+	graph.BFS(0);
 }
