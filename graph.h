@@ -72,16 +72,16 @@ public:
 	}
 
 	void showVertice(){
+		cout << "vertice : ";
 		for (int i = 0; i < vertexNum; i++) {
-			cout << "vertice : ";
 			cout << vertice[i] << " ";
 		}
 		cout << endl;
 	}
 
 	void showEdges() {
+		cout << "edges : ";
 		for (int i = 0; i < edgeNum; i++) {
-			cout << "edges : ";
 			cout << edges[i].toString() << " ";
 		}
 		cout << endl;
